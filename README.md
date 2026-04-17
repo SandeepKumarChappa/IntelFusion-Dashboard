@@ -5,8 +5,6 @@ A scalable, full-stack Intelligence command center built to ingest, analyze, and
 **🔗 Live Dashboard:** [https://fusiondashai.netlify.app/](https://fusiondashai.netlify.app/)  
 **⚙️ Live Backend Environment:** [https://intelfusion-backend.onrender.com](https://intelfusion-backend.onrender.com)
 
-![Dashboard Preview](https://via.placeholder.com/1000x500.png?text=IntelFusion+Dashboard)
-
 ## ✨ Core Features
 
 *   **Multi-Source Data Ingestion:** Automatically scales and sorts inputs via CSV, JSON arrays, and Image Multipart forms.
