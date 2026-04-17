@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #0a0a0a;
+  --color-darker: #050505;
+  --color-neon: #00f0ff;
+}
+
+body {
+  @apply bg-dark text-gray-100 font-sans m-0 overflow-hidden;
+}
+
+@utility glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)];
+}
+
+@utility glass-panel {
+  @apply bg-black/40 backdrop-blur-lg border border-white/10 rounded-xl;
+}
+
+@utility glass-input {
+  @apply bg-white/5 border border-white/20 rounded-md px-3 py-2 text-sm text-white placeholder-gray-400 focus:outline-none focus:border-neon focus:ring-1 focus:ring-neon transition-all;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Delhi Activity",
+    "description": "Suspicious movement detected near the border parameter",
+    "sourceType": "OSINT",
+    "location": {
+      "lat": 28.6139,
+      "lng": 77.2090
+    },
+    "imageUrl": ""
+  },
+  {
+    "title": "Kashmir Drone",
+    "description": "Drone captured image of unauthorized vehicle",
+    "sourceType": "IMINT",
+    "location": {
+      "lat": 34.0837,
+      "lng": 74.7973
+    },
+    "imageUrl": ""
+  },
+  {
+    "title": "London Safehouse",
+    "description": "Asset confirmed visual on individual entering premise",
+    "sourceType": "HUMINT",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "imageUrl": ""
+  }
+]
