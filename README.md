@@ -2,6 +2,9 @@
 
 A scalable, full-stack Intelligence command center built to ingest, analyze, and visualize multi-source intelligence data. This production-ready prototype features native Natural Language Processing (NLP) for instant AI taxonomy, interactive dark-mode cartography, and robust geo-spatial fallback logic.
 
+**🔗 Live Dashboard:** [https://fusiondashai.netlify.app/](https://fusiondashai.netlify.app/)  
+**⚙️ Live Backend Environment:** [https://intelfusion-backend.onrender.com](https://intelfusion-backend.onrender.com)
+
 ![Dashboard Preview](https://via.placeholder.com/1000x500.png?text=IntelFusion+Dashboard)
 
 ## ✨ Core Features
