@@ -23,7 +23,7 @@ const Sidebar = ({ filters, setFilters, refreshData }) => {
     formData.append('description', description);
     
     try {
-      await axios.post('http://localhost:5000/api/upload', formData, {
+      await axios.post('https://intelfusion-backend.onrender.com/api/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       setUploadState('Success!');

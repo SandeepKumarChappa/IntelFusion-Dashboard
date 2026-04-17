@@ -11,7 +11,7 @@ const App = () => {
   const fetchData = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get('http://localhost:5000/api/data', {
+      const response = await axios.get('https://intelfusion-backend.onrender.com/api/data', {
         params: filters
       });
       setData(response.data);
@@ -28,7 +28,7 @@ const App = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/data/${id}`);
+      await axios.delete(`https://intelfusion-backend.onrender.com/api/data/${id}`);
       fetchData(); // Refresh the map instantly
     } catch (error) {
       console.error("Error deleting data:", error);

@@ -81,7 +81,7 @@ const DashboardMap = ({ data, onDelete, isLoading }) => {
                     </div>
                   </div>
                   {point.imageUrl && (
-                    <img src={`http://localhost:5000${point.imageUrl}`} alt="Intelligence" className="w-full h-24 object-cover rounded mb-2 border border-gray-200" />
+                    <img src={`https://intelfusion-backend.onrender.com${point.imageUrl}`} alt="Intelligence" className="w-full h-24 object-cover rounded mb-2 border border-gray-200" />
                   )}
                   <p className="text-sm text-gray-600 mb-2 max-h-24 overflow-y-auto">{point.description}</p>
                   
